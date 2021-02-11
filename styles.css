@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(243, 255, 224);
+    /* color: lightcoral; */
+}
+h1 {
+    color: lime; 
+    background-color: red;
+}
+span {
+    background-color: violet;
+}
+
+ul {
+    color: #ddff00;
+}
+
+.red {
+    background-color: blue;
+}
+
+p.red {
+    color: white;
+
+}
+
+.lorem {
+    background-color: tomato;
+    width: 70%;
+    height: 200px;
+    margin: 50px;
+    border: 10px;
+    border-style: dotted;
+    border-color: yellow;
+    padding: 20px;
+}
+div.bg-green {
+    background-color: green;
+    position: absolute;
+ }
+
+ div {
+     background-color: yellow;
+ }
+
+ .lorem:hover {
+     background-color: orange;
+ }
+
+ div.nav-item {
+     padding-left: 15px;
+     padding-right: 15px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     background-color: black;
+ }
+
+ div.nav-item:hover {
+     background-color: darkblue;
+ }
+
+ .nav-item a {
+    color: white;
+    text-decoration: none;
+ }
+
+ .nav-bar {
+     background-color: black;
+     display: flex;
+     justify-content: flex-start;
+     flex-direction: row;
+ }
